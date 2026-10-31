@@ -1,0 +1,17 @@
+{
+  "id": "radar-root", "type": "row", "titlebar": "none", "traffic_lights": [18, 22], "theme": "moss", "preview": "mods/radar/preview.svg",
+  "font": "JetBrains Mono", "ui_font": "Geist Mono", "font_size": 12, "background": "#04110f", "terminal_padding": [10, 10],
+  "colors": { "background": "#061815", "foreground": "#bfe9dc", "canvas": "#04110f", "chrome": "#04110f", "border": "#14423a", "accent": "#4dffc3" },
+  "resizable": true, "divider": { "width": 1, "color": "#14423a" },
+  "children": [
+    { "id": "radar-side", "type": "column", "size": { "px": 470 }, "min": 360, "max": 720, "resizable": false, "children": [
+      { "id": "radar-top", "type": "block", "size": { "px": 56 }, "window_drag": true, "content": { "mod": "radar", "props": { "role": "top" } } },
+      { "id": "radar-scope", "type": "block", "size": { "weight": 1 }, "content": { "mod": "radar" } },
+      { "id": "radar-contacts", "type": "block", "size": { "px": 210 }, "content": { "mod": "radar", "props": { "role": "contacts" } } }
+    ] },
+    { "id": "radar-work", "type": "block", "padding": [12, 12], "content": { "tab": "active", "pane": {
+      "gap": 10, "radius": 4, "background": "#061815", "lone": true,
+      "border": { "width": 1, "color": "#14423a" }, "focus": { "width": 1, "color": "#4dffc3" },
+      "header": { "content": { "mod": "radar", "props": { "role": "pane" } }, "height": 26, "position": "top", "reveal": "always" } } } }
+  ]
+}

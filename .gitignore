@@ -1,0 +1,5 @@
+# written by `herdr-app check` / the app into mod folders
+gpui-kit.d.ts
+jsconfig.json
+herdr.d.ts
+.DS_Store

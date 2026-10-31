@@ -1,0 +1,17 @@
+{
+  "id": "arcade-root", "type": "column", "titlebar": "none", "traffic_lights": [18, 31], "theme": "ink", "preview": "mods/arcade/preview.svg",
+  "font": "JetBrains Mono", "ui_font": "JetBrains Mono", "font_size": 13, "background": "#07020f", "terminal_padding": [12, 10],
+  "colors": { "background": "#0d0618", "foreground": "#f2e9ff", "canvas": "#07020f", "chrome": "#07020f", "border": "#3b1d66", "accent": "#ff2bd6" },
+  "resizable": false,
+  "children": [
+    { "id": "arcade-marquee", "type": "block", "size": { "px": 78 }, "window_drag": true, "content": { "mod": "arcade", "props": { "role": "marquee" } } },
+    { "id": "arcade-cabinet", "type": "row", "padding": [12, 14], "gap": 14, "resizable": false, "children": [
+      { "id": "arcade-scores", "type": "block", "size": { "px": 380 }, "content": { "mod": "arcade" } },
+      { "id": "arcade-screen", "type": "block", "content": { "tab": "active", "pane": {
+        "gap": 10, "radius": 12, "background": "#0d0618", "lone": true,
+        "border": { "width": 2, "color": "#3b1d66" }, "focus": { "width": 2, "color": "#ff2bd6" },
+        "header": { "content": { "mod": "arcade", "props": { "role": "pane" } }, "height": 28, "position": "top", "reveal": "always" } } } }
+    ] },
+    { "id": "arcade-controls", "type": "block", "size": { "px": 30 }, "content": { "mod": "arcade", "props": { "role": "controls" } } }
+  ]
+}

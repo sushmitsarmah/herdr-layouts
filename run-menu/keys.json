@@ -1,0 +1,4 @@
+{
+  "global": { "ctrl-shift-r": "mod.open:run-menu" },
+  "terminal": { "ctrl-shift-r": "mod.open:run-menu" }
+}

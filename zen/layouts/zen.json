@@ -1,0 +1,16 @@
+{
+  "id": "zen-root", "type": "column", "titlebar": "none", "traffic_lights": [18, 16], "preview": "mods/zen/preview.svg",
+  "theme": { "light": "paper", "dark": "ink" },
+  "ui_font": "Geist", "font_size": 14, "terminal_padding": [18, 14], "resizable": false, "movable": false,
+  "children": [
+    { "id": "zen-top", "type": "block", "size": { "px": 44 }, "window_drag": true, "content": { "mod": "zen", "props": { "role": "top" } } },
+    { "id": "zen-body", "type": "stack", "active": "zen-agent", "padding": [6, 72],
+      "children": [
+        { "id": "zen-agent", "type": "block", "radius": 10, "border": { "width": 1, "color": "border" }, "content": { "agent": "focused" } },
+        { "id": "zen-tab", "type": "block", "content": { "tab": "active", "pane": {
+          "gap": 10, "radius": 10, "background": "background", "lone": false,
+          "border": { "width": 1, "color": "border" }, "focus": { "width": 1, "color": "accent" } } } }
+      ] },
+    { "id": "zen-dots", "type": "block", "size": { "px": 40 }, "content": { "mod": "zen", "props": { "role": "dots" } } }
+  ]
+}

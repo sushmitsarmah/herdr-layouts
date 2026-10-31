@@ -1,0 +1,5 @@
+{
+  "place": "none",
+  "title": "Needs you",
+  "overlay": { "kind": "popup", "at": "top", "offset": 64, "width": 520, "height": 360 }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "newsroom-root", "type": "column", "titlebar": "none", "traffic_lights": [16, 8], "theme": "paper", "preview": "mods/newsroom/preview.svg",
+  "ui_font": "Geist", "font_size": 13, "background": "#f4efe4", "terminal_padding": [12, 10],
+  "colors": { "background": "#fbf8f1", "foreground": "#1d1b17", "canvas": "#f4efe4", "chrome": "#f4efe4", "border": "#d8cfbd", "accent": "#a4161a" },
+  "resizable": false,
+  "children": [
+    { "id": "newsroom-masthead", "type": "block", "size": { "px": 104 }, "window_drag": true, "content": { "mod": "newsroom", "props": { "role": "masthead" } } },
+    { "id": "newsroom-body", "type": "row", "padding": [0, 18], "gap": 18, "resizable": true, "divider": { "width": 1, "color": "#1d1b17" }, "children": [
+      { "id": "newsroom-front", "type": "block", "size": { "px": 480 }, "min": 320, "max": 760, "content": { "mod": "newsroom" } },
+      { "id": "newsroom-wire", "type": "column", "resizable": false, "children": [
+        { "id": "newsroom-section", "type": "block", "size": { "px": 34 }, "content": { "mod": "newsroom", "props": { "role": "section" } } },
+        { "id": "newsroom-live", "type": "block", "content": { "tab": "active", "pane": {
+          "gap": 12, "radius": 0, "background": "#fbf8f1", "lone": true,
+          "border": { "width": 1, "color": "#1d1b17" }, "focus": { "width": 2, "color": "#a4161a" },
+          "header": { "content": { "mod": "newsroom", "props": { "role": "pane" } }, "height": 30, "position": "top", "reveal": "always" } } } }
+      ] }
+    ] },
+    { "id": "newsroom-footer", "type": "block", "size": { "px": 26 }, "content": { "mod": "newsroom", "props": { "role": "footer" } } }
+  ]
+}

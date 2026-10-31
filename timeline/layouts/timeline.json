@@ -1,0 +1,16 @@
+{
+  "id": "timeline-root", "type": "column", "titlebar": "none", "traffic_lights": [18, 18], "theme": "graphite", "preview": "mods/timeline/preview.svg",
+  "ui_font": "Geist", "font_size": 13, "background": "#101216", "terminal_padding": [10, 8],
+  "colors": { "background": "#14171c", "foreground": "#dde2ea", "border": "#262b33", "accent": "#5eb1ff",
+              "working": "#5eb1ff", "blocked": "#ff9f43", "done": "#3ecf8e", "idle": "#59616e" },
+  "resizable": false,
+  "children": [
+    { "id": "timeline-top", "type": "block", "size": { "px": 48 }, "window_drag": true, "content": { "mod": "timeline", "props": { "role": "top" } } },
+    { "id": "timeline-lanes", "type": "block", "size": { "px": 250 }, "min": 120, "max": 520, "content": { "mod": "timeline" } },
+    { "id": "timeline-ruler", "type": "block", "size": { "px": 24 }, "content": { "mod": "timeline", "props": { "role": "ruler" } } },
+    { "id": "timeline-work", "type": "block", "padding": [10, 14], "background": "#101216", "content": { "tab": "active", "pane": {
+      "gap": 10, "radius": 8, "background": "#14171c", "lone": true,
+      "border": { "width": 1, "color": "#262b33" }, "focus": { "width": 1, "color": "#5eb1ff" },
+      "header": { "content": { "mod": "timeline", "props": { "role": "pane" } }, "height": 28, "position": "top", "reveal": "always" } } } }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "global": { "ctrl-shift-j": "mod.open:needs-you" },
+  "terminal": { "ctrl-shift-j": "mod.open:needs-you" },
+  "mod:needs-you": { "ctrl-shift-j": "needs-you.next" }
+}
