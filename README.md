@@ -43,49 +43,28 @@ have no `layouts/` folder.
 
 Real `herdr-app shot` captures from a test run with six demo agents.
 
-### Layouts
-
-#### Zen
-
-![Zen layout](zen/preview.png)
-
-#### Timeline
-
-![Timeline layout](timeline/preview.png)
-
-#### Radar
-
-![Radar layout](radar/preview.png)
-
-#### Newsroom
-
-![Newsroom layout](newsroom/preview.png)
-
-#### Arcade
-
-![Arcade layout](arcade/preview.png)
-
-### Mods
-
-#### Pomodoro
-
-![Pomodoro mod](pomodoro/preview.png)
-
-#### Needs you
-
-![Needs you mod](needs-you/preview.png)
-
-#### Git log
-
-![Git log mod](git-log/preview.png)
-
-#### Run menu
-
-![Run menu mod](run-menu/preview.png)
-
-#### Agent ticker
-
-![Agent ticker mod](agent-ticker/preview.png)
+<table>
+  <tr>
+    <td align="center" width="33%"><a href="zen/"><img src="zen/preview.png" alt="Zen layout" width="100%"></a><br><b>Zen</b> <sub>layout</sub></td>
+    <td align="center" width="33%"><a href="timeline/"><img src="timeline/preview.png" alt="Timeline layout" width="100%"></a><br><b>Timeline</b> <sub>layout</sub></td>
+    <td align="center" width="33%"><a href="radar/"><img src="radar/preview.png" alt="Radar layout" width="100%"></a><br><b>Radar</b> <sub>layout</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="newsroom/"><img src="newsroom/preview.png" alt="Newsroom layout" width="100%"></a><br><b>Newsroom</b> <sub>layout</sub></td>
+    <td align="center" width="33%"><a href="arcade/"><img src="arcade/preview.png" alt="Arcade layout" width="100%"></a><br><b>Arcade</b> <sub>layout</sub></td>
+    <td align="center" width="33%"><a href="pomodoro/"><img src="pomodoro/preview.png" alt="Pomodoro mod" width="100%"></a><br><b>Pomodoro</b> <sub>mod</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="needs-you/"><img src="needs-you/preview.png" alt="Needs you mod" width="100%"></a><br><b>Needs you</b> <sub>mod</sub></td>
+    <td align="center" width="33%"><a href="git-log/"><img src="git-log/preview.png" alt="Git log mod" width="100%"></a><br><b>Git log</b> <sub>mod</sub></td>
+    <td align="center" width="33%"><a href="run-menu/"><img src="run-menu/preview.png" alt="Run menu mod" width="100%"></a><br><b>Run menu</b> <sub>mod</sub></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%"><a href="agent-ticker/"><img src="agent-ticker/preview.png" alt="Agent ticker mod" width="100%"></a><br><b>Agent ticker</b> <sub>mod</sub></td>
+    <td width="33%"></td>
+    <td width="33%"></td>
+  </tr>
+</table>
 
 ## Install
 
