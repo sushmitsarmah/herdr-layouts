@@ -39,6 +39,54 @@ have no `layouts/` folder.
 | [Run menu](run-menu/) | popup, Ctrl+Shift+R | One-key launchers (shell, git status, tests, build, htop) in the focused folder |
 | [Agent ticker](agent-ticker/) | bottom strip, 28px | Status counts and a clickable pill per agent, with time spent working |
 
+## Screenshots
+
+Real `herdr-app shot` captures from a test run with six demo agents.
+
+### Layouts
+
+#### Zen
+
+![Zen layout](zen/preview.png)
+
+#### Timeline
+
+![Timeline layout](timeline/preview.png)
+
+#### Radar
+
+![Radar layout](radar/preview.png)
+
+#### Newsroom
+
+![Newsroom layout](newsroom/preview.png)
+
+#### Arcade
+
+![Arcade layout](arcade/preview.png)
+
+### Mods
+
+#### Pomodoro
+
+![Pomodoro mod](pomodoro/preview.png)
+
+#### Needs you
+
+![Needs you mod](needs-you/preview.png)
+
+#### Git log
+
+![Git log mod](git-log/preview.png)
+
+#### Run menu
+
+![Run menu mod](run-menu/preview.png)
+
+#### Agent ticker
+
+![Agent ticker mod](agent-ticker/preview.png)
+
 ## Install
 
 You need the Herdr desktop app (it installs `herdr-app` and `hc` into `~/.local/bin`):
